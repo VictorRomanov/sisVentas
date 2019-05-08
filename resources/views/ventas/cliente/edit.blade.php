@@ -33,11 +33,11 @@
 					<div class="form-group">
 						<label>Documento</label>
 						<select name="tipo_documento" id="" class="form-control" >
-							@if($persona->tipo_persona=="RUT")
+							@if($persona->tipo_documento=="RUT")
 								<option value="RUT" selected>RUT</option>
 								<option value="RUN">RUN</option>
 								<option value="PAS">PAS</option>
-							@elseif($persona->tipo_persona=="RUN")
+							@elseif($persona->tipo_documento=="RUN")
 								<option value="RUT">RUT</option>
 								<option value="RUN"selected>RUN</option>
 								<option value="PAS">PAS</option>
